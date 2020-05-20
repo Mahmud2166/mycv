@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact</title>
+  </head>
+  <body>
+    <h3>My Contact</h3>
+    <p>
+      phone-01922580686
+      </p>
+      <p>
+        myemail@gmail.com
+        </p>
+        <label for="Name">Name(character 4 to between 10)</label>
+        <input type="text" name="Name" required minlength="4" maxlength="10">
+        <input type="color">
+        <p>
+          What is your gender?
+          </p>
+          <input type="checkbox" name="male" />
+          <label for="male">male</label>
+      <div class="2">
+        <input type="checkbox"name="female" />
+        <label for="female">female</label>
+      </div>
+      <label for="email">enter your email</label>
+      <input type="email"id="email"
+       pattern=".+@globex.com" size="30" required />
+       <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+</div>
+
+<div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+
+<input type="submit" value="Sign in"><br />
+<label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+
+<button>Search</button>
+
+  </body>
+</html>
